@@ -1,0 +1,274 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.form{
+    display: flex !important;
+    justify-content: center !important;
+    flex-direction: column !important;
+    border-radius: 10px;
+}
+.input{
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 90% !important;
+    height: 40px !important;
+    margin-bottom: 10%;
+    padding: 10px;
+    font-size: 22px;
+    outline: none;
+    border: none;
+  border-radius: 5px;
+  background-color: #8a8686;
+  color: white;
+  
+}
+input::placeholder{
+    color: white;
+    font-weight: bold;
+    font-family: 'Ubunto' , sans-serif !important;
+    padding-left: 2%;
+    letter-spacing: 3px;
+}
+.btnLogin{
+    width: 100% !important;
+    height: 45px !important;
+    margin-bottom: 5%;
+    padding: 10px;
+    font-size: 22px;
+    outline: none;
+    border: none;
+    font-weight: bold;
+    color: white;
+    background-color: #003566;
+    margin-top: 5%;
+    cursor: pointer;
+}
+.btnLogin:hover{
+    background-color: #002547;
+}
+.btnheader1{
+    background: white;
+    width: 100%;
+    height: 50px;
+    font-size: 30px ;
+    font-family: 'Ubunto', sans-serif !important;
+    font-weight: bold;
+    margin-top: 15%;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.btnheader2{
+    background: black;
+    width: 50%;
+    height: 50px;
+    font-size: 30px ;
+    font-family: 'Ubunto', sans-serif !important;
+    font-weight: bold;
+    margin-top: 15%;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+}
+.btnrelogio{
+    background: #002547;
+    width: 100%;
+    height: 60px;
+    font-size: 30px ;
+    font-family: 'Ubunto', sans-serif !important;
+    font-weight: bold;
+    margin-top: 15%;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+}
+.linkar{
+  display: block;
+    font-style: none !important;
+    text-decoration: none !important;
+    color: white;
+}
+.containerboxcard{
+    display: flex !important;
+    flex-direction: row !important;
+}
+.card{
+    border-radius: 10px;
+
+}
+.boxcard{
+    display: flex !important;
+    flex-direction: column !important;
+}
+.imgcard{
+    width: 250px;
+    height: 250px;
+}
+.relogiowatchtitle >h1{
+    font-size: 50px !important;
+}
+.imgsapato{
+    width: 450px !important;
+    height: 450px !important;
+    
+}
+
+@media(max-width: 1024px){
+
+    .imgLogin{
+        width: 90%;
+    }
+    .titlesigIn{
+        font-size: 50px !important;
+    }
+    .form{
+        width: 50% !important;
+     }
+     .containerboxcard{
+        display: flex !important;
+        flex-direction: row !important;
+     }
+        .boxcard{
+        display: flex !important;
+        flex-direction: column !important;
+        
+      
+    }
+    .imgcard{
+        width: 210px;
+        height: 210px;
+    }
+    .titlecard{
+        font-size: 35px !important;
+    }
+
+
+    
+}
+
+@media(max-width: 768px){
+    .boxsapato{
+        display: flex !important;
+        flex-direction: column-reverse !important;
+        margin-top: 20% !important;
+        
+    }
+    .Boxtitlesapato{
+        width: 100% !important;
+        margin-bottom: 20% !important;
+        text-align: center !important;
+    }
+    .imgsapato{
+        margin-bottom: 20% !important;
+    }
+    .boxtitlemodafeminina{
+        margin-top: 50%!important;
+    }
+       
+     .animationbox{
+         margin-left: 0 !important;
+         margin-top: 10% !important;
+     }
+    .boxinfo{
+        display: flex !important;
+        flex-direction: column !important;
+        margin-left: 0 !important;
+    }
+    .boxinfotitle{
+        width: 100% !important;
+        text-align: center;
+        margin-top: 30%;
+    }
+    .card{
+        width: 80% !important;
+        margin-top: 8%;
+     
+     
+    }
+    .containercard{
+        height: 1950px !important;
+    }
+    .containerboxcard{
+        display: flex !important;
+        flex-direction: column !important;
+    }
+    .boxcard{
+        display: flex !important;
+        flex-direction: column !important;
+      
+    }
+    
+    Body{
+        touch-action: pan-y !important;
+    }
+
+    .relogiowatch{
+        display: flex !important;
+        flex-direction: column !important;
+    }
+    
+    .relogiowatchtitle >h1{
+       font-size: 30px !important;
+       text-align: center !important;
+       margin-top: 5%;
+    }
+    .header{
+        display: flex !important;
+        flex-direction: column-reverse!important;
+    }
+    .btnheader1{
+        width: 80%;
+    }
+    .containerheader{
+        height:1150px!important ;
+    }
+    .header >h1{
+        font-size: 30px !important;
+    }
+    .containersingIN{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .form{
+       width: 75% !important;
+    }
+    .titlebox{
+        margin-top: 0 !important;
+    }
+  
+}
+@media(max-width: 572px){
+    .titlesigIn{
+        text-align: center;
+        font-size: 40px !important;
+
+    }
+}
+@media(max-width: 460px){
+    .titlesigIn{
+        text-align: center;
+        font-size: 30px !important;
+
+    }
+    .imgLogin{
+        width: 100%;
+    }
+    .form{
+        height: 300px !important;
+        margin-left: 0 !important;
+     }
+}
+
+@media(max-width: 395px){
+
+    .imgrelogioblack{
+        width: 300px;
+        height: 300px;
+    }
+
+}
